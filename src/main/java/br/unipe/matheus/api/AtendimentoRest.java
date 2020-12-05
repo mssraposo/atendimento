@@ -56,19 +56,5 @@ public class AtendimentoRest {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 	
-	/* @GetMapping("/atendimento")
-    public List<Atendimento> getAtendimento() {
-		
-		Atendimento[] atendimentos  = new Atendimento[19];		
-		Atendimento p = new Atendimento();
-		p.setId(1l);
-		p.setCoordenador("Felipe");
-		p.setAssunto("Assunto");
-		p.setDescricao("Descrição");
-		p.setData("Data");
-		atendimentos[0] = p;
-		return (List<Atendimento>) Arrays.asList(atendimentos);
-	} */
-	
 
 }
